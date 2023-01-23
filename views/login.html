@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- FONTAWESOME -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+    <title>MercadoLiebre - Formularios</title>
+</head>
+
+<body>
+    <header>
+
+
+        <div class="header__logo-search--container">
+            <div class="logo">
+                <a href="/home">
+                    <img src="images/logo-mercado-liebre.svg" alt="Logo MercadoLiebre">
+                </a>
+            </div>
+
+            <form class="search__bar">
+                <input class="search__bar--text" type="text" placeholder="Buscar productos, marcas...">
+                <button class="search__bar--btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+            <div class="text__buy--container">
+                <p>
+                    <i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito
+                </p>
+            </div>
+        </div>
+
+        <nav class="nav__lists">
+            <ul class="top__list">
+                <li class="items__list"><a href="">Ofertas</a></li>
+                <li class="items__list"><a href="">Tiendas Oficiales</a></li>
+                <li class="items__list"><a href="">Vender</a></li>
+                <li class="items__list"><a href="">Ayuda</a></li>
+            </ul>
+            <ul class="bottom__list">
+                <li class="items__list"><a href="/register">Creá tu cuenta<i class="fa-regular fa-id-card"></i></a></li>
+                <li class="items__list"><a href="/login">Ingresá<i class="fa-solid fa-right-to-bracket"></i></a></li>
+                <li class="items__list"><a href="">Mis compras<i class="fa-solid fa-basket-shopping"></i></a></li>
+            </ul>
+        </nav>
+
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="login__container">
+            <section class="login__title--container">
+                <h2 class="title__login">Ingresá a tu cuenta</h2>
+            </section>
+            <form method="" class="form__container">
+                <div class="input__container">
+                    <input class="input__text" type="text" name="user__name" placeholder="Nombre de usuario">
+                    <span class="error__msg">*Debe ingresar un nombre de usuario correcto</span>
+                </div>
+                <div class="input__container">
+                    <input class="input__text" type="password" name="user__pass" placeholder="Ingrese su contraseña">
+                    <span class="error__msg">*Debe ingresar una contraseña correcta</span>
+                </div>
+                <div class="input__container">
+                    <button class="btn__submit btn__login" type="submit"><a class="btn__link" href="/home">Enviar</a></button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <article>
+            <i class="footer-icon fa-solid fa-credit-card"></i>
+            <h4>Pagá con tarjeta o en efectivo</h4>
+            <p>Con MercadoLiebreCash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+        </article>
+        <article>
+            <i class="footer-icon fa-solid fa-gift"></i>
+            <h4>Envío gratis desde $ 2.500</h4>
+            <p>Solo por estar registrado en MercadoLiebre tenés envíos gratis en miles deproductos. Es un beneficio de Mercado Puntos.</p>
+        </article>
+        <article>
+            <i class="footer-icon fa-solid fa-user-shield"></i>
+            <h4>Seguridad, de principio a fin</h4>
+            <p>¿No te gusta? ¡Devolvelo! En MercadoLiebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
+        </article>
+        <span>Copyright © 1999-2020 MercadoLiebre S.R.L.</span>
+    </footer>
+</body>
+
+</html>
